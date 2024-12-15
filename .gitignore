@@ -33,3 +33,51 @@
 .vscode
 *.ilk
 *.pdb
+# Compiled binary and libraries
+/target/
+
+# Build scripts output
+**/*.rs.bk
+
+# If you use C dependencies
+*.o
+*.so
+*.dylib
+*.dll
+
+# If you use macOS
+.DS_Store
+
+# If you use Windows
+Thumbs.db
+*.exe
+
+# If you use Linux
+*.lock
+
+# Debug output
+*.log
+
+# IDE and editor specific files
+/.idea/
+/.vscode/
+/*.swp
+*.sublime-workspace
+*.sublime-project
+
+# Rust specific
+**/*.rs.bk
+
+# Node.js dependencies (if you integrate with frontend tools)
+/node_modules/
+/dist/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+debug/
+*.lock
+.rustc_info.json
+CACHEDIR.TAG
